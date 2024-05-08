@@ -1,0 +1,51 @@
+.container-fluid {
+    background: #f85606;
+}
+
+.container-fluid .img-fluid {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.searchBar {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.searchContainer button {
+    outline: none;
+    border: none;
+    padding: 3px 17px;
+    border-radius: 7px;
+    
+}
+
+.searchContainer .search {
+    margin-left: -60px;
+    background: #ffe1d2;
+    color: #f85606;
+}
+
+.login, span, .signup, .lang, .cart {
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .searchContainer .logo, .searchContainer .login, .searchContainer .signup, .searchContainer .lang, .searchContainer .cart {
+        display: none;
+    }
+
+    .searchContainer .searchBar{
+        padding-left: 20px;
+        padding-right: 65px;
+        margin-bottom: 10px;
+    }
+
+    .searchContainer .search {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,56 @@
+.contentCard {
+    background: #f7f7f7;
+}
+
+.contentCard .container h4 {
+    color: #8f8f8f;
+    font-weight: 400;
+}
+
+.flash-container .col-lg-2 {
+    cursor: pointer;
+}
+
+.card-body {
+    transition: .2s all ease-in;
+}
+
+.card-body:hover {
+    background: #fff;
+}
+
+.flash-container img {
+    height: 200px;
+}
+
+.flash-container p, .flash-container h6 {
+    color: #8f8f8f;
+    font-size: 13px;
+    font-weight: 200;
+    transition: .2s all ease-in-out;
+}
+
+.flash-container h5 {
+    font-size: 15px;
+    color: #f85606;
+    margin-top: -25px;
+}
+
+.flash-container h6 {
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+.flash-container p:hover, 
+.flash-container h6:hover {
+    color: #000;
+}
+
+@media (max-width:768px) {
+    .flash-container .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

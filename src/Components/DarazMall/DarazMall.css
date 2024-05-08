@@ -1,0 +1,56 @@
+.darazMall {
+    background: #f7f7f7;
+}
+
+.darazMall .container h4 {
+    color: #8f8f8f;
+    font-weight: 400;
+}
+
+.darazmall-container .col-lg-2 {
+    cursor: pointer;
+}
+
+.card-body {
+    transition: .2s all ease-in;
+}
+
+.card-body:hover {
+    background: #fff;
+}
+
+.darazmall-container img {
+    height: 200px;
+}
+
+.darazmall-container p, .darazmall-container h6 {
+    color: #8f8f8f;
+    font-size: 13px;
+    font-weight: 200;
+    transition: .2s all ease-in-out;
+}
+
+.darazmall-container h5 {
+    font-size: 15px;
+    color: #f85606;
+    margin-top: -25px;
+}
+
+.darazmall-container h6 {
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+.darazmall-container p:hover, 
+.darazmall-container h6:hover {
+    color: #000;
+}
+
+@media (max-width:768px) {
+    .darazmall-container .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
